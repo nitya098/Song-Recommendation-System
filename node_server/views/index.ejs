@@ -1,0 +1,8 @@
+<%- include("partials/main.ejs") %>
+<div class="start">
+    <form action="/recommend" method="POST">
+        <h1 class="head">Your Favourite Song</h1>
+        <input type="text" name="song" id="song" autofocus placeholder="<%= locals.error ? error :  'Enter song name'%>">
+        <button class="button" role="button" type="submit">Recommend</button>
+    </form>
+<%- include("partials/footer.ejs")  %>

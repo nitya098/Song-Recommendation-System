@@ -1,0 +1,176 @@
+*{
+    margin:0px;
+    
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    background: black;
+    background-image: url("/images/Headphones.jpg");
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.main img{
+    opacity: 0.5;
+}
+.left, .right {
+    display: flex;
+}
+
+.left {
+    width:100px;
+    flex-direction: column;
+}
+
+.left img{
+    border-radius: 100%;
+    padding: 6px;
+    opacity: 2;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px; 
+    font-family: "Stylish", serif;
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(45deg,#fec4cd,#fe96b3, #fe5fc4,#fe6cc2,#cb2bfd,#a51fe0,#5817c0);
+    -webkit-background-clip: text;
+    color: transparent;
+} */
+
+.right{
+    /* background: radial-gradient(circle ,#7922d0,#5d1ec4,#3c108b,#23076d); */
+    justify-content: center;
+    display: inline-flex;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    height:678px;
+    width:1500px;
+    padding-right: 110px;
+}
+
+.right h1 {
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.right input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    font-size: 25px;
+}
+#action-end{
+    display: inline-flex;
+}
+#action-end h1{
+    text-align: center;
+}
+.recommend{
+    padding-bottom: 400px;
+    width:400px;
+}
+.start{
+    align-content:flex-start;
+    text-align: center;
+    height:270px;
+}
+.head{
+    font-size: 57px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 200;
+    font-style: normal;
+    background: linear-gradient(45deg, black,rgba(181, 171, 171, 0.356),rgb(0, 21, 255),rgb(0, 140, 255),rgb(127, 187, 252),rgb(116, 52, 236),rgb(148, 58, 173),rgba(231, 39, 202, 0.877),rgb(255, 89, 227),rgb(209, 61, 152),black);
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-shadow: 2px 3px 2px rgba(255, 255, 255, 0.881);
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+      
+}
+  
+.button {
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+  box-shadow: white 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: rgb(0, 38, 255);
+}
+.list{
+    display: flex;
+    color: white;
+    padding: 50px;
+    padding-top: 0px;
+    width: 500px;
+    height:80vh
+}
+.recommend{
+    padding-top:100px ;
+    width:400px;
+}
+.song{
+    padding-left: 50px;
+    align-content: center;
+    font-size: 18px;
+}
+.song h1{
+    font-size: 45px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+}
+.home{
+    display: flex;
+    flex: top;
+    padding-left: 300px;
+}
+.home img{
+    opacity: 1;
+}

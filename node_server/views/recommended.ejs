@@ -1,0 +1,18 @@
+<%- include("partials/main.ejs") %>
+
+<div id="action-end">
+    
+</div>
+<div class="list">
+    <div class="song">
+    <h1>Our Recommendations</h1>
+    <ul>
+        <% recommendations.forEach(function(song) { %>
+            <li><%= song %></li>
+        <% }); %>
+    </ul>
+    </div>
+<div class="home">
+    <a href="/"><img src="/images/home.png"></a>
+</div>
+<%- include("partials/footer.ejs") %>
